@@ -220,7 +220,7 @@ Last but not least, run `systemctl enable wg-quick@wg0` to launch the service wh
 
 ![Terraform](assets/terraform.png) [`service/kubernetes`](https://github.com/hobby-kube/provisioning/tree/master/service/kubernetes)
 
-There are plenty of ways to set up a Kubernetes cluster from scratch. At this point however, we settle on [kubeadm](https://kubernetes.io/docs/getting-started-guides/kubeadm/). This dramatically simplifies the setup process by automating the creation of certificates, services and configuration files.
+There are plenty of ways to set up a Kubernetes cluster from scratch. At this point however, we settle on [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/). This dramatically simplifies the setup process by automating the creation of certificates, services and configuration files.
 
 Before getting started with Kubernetes itself, we need to take care of setting up two essential services that are not part of the actual stack, namely **containerd** and **etcd**. We've been using Docker in the past, but containerd is now preferred.
 
